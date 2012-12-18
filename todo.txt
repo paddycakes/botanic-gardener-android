@@ -1,0 +1,41 @@
+REQUIREMENTS
+============
+
+Botanic Customer App:
+
+1. Click phone icon to launch phone call to Rob's mobile
+2. Google maps to check where you are and show 
+   - markers on map nearby where Rob has done work (click on to see pictures)
+   - show nearby nurseries
+3. 2 pane/fragment screen showing list of photo (with description/thumbnail) and
+   full picture in right hand pane when selected on left
+4. Investigate the possibility of a customer taking a picture of a plant/leaf,
+   transmitting it to us and being able to match it up to possible candidates.
+   Could then show which nurseries nearby are relevant.
+   Would need some optical plant recognition software to use. Does this exist?
+   
+Botanic Management App:
+
+1. Allow Rob to take pictures and either store on phone or transmit to a REST service 
+for publishing to web-app or to somewhere where they could be used either by android app or web app.
+2. Have activity/view in app that lets Rob record into microphone things he needs to do and they get
+emailed/sms to him as reminders
+
+
+APPLICATION
+===========
+
+Activities/Screens:
+
+- Home screen (BCust & BMgmt)
+- Contact screen: email/sms/launch phone call (BCust)
+- Map screen (BCust)
+- Gallery screen (BCust)
+- Photo management screen (BMgmt and poss. BCust if have plant recognition s/w)
+- Voice recording screen (BMgmt)
+- Testimonials (BCust)
+
+Assets (from Rob):
+
+- Botanic icons/images
+- Photos of work
